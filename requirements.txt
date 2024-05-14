@@ -1,0 +1,10 @@
+numpy
+pandas
+tqdm
+transformers>=4.28.1
+tokenizers>=0.13.3
+argparse
+protobuf
+sentencepiece
+accelerate
+nltk
