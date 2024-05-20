@@ -8,7 +8,7 @@ The directory should look like this:
 
 ````
 incas-israel-hamas-concern
-├── incas_tuned_model_ih --place models here
+├── incas_tuned_model_2b --place models here
 ├── Readme.md
 ├── annotate.py
 ├── requirements.txt
