@@ -71,7 +71,8 @@ def label_concern(input_list):
         "text-generation",
         model=model,
         device_map="cpu",
-        max_length=512
+        max_new_tokens=100,
+        return_full_text=False
     )
 
     print("inference result ...")
