@@ -73,7 +73,8 @@ def label_concern(input_list):
         model=model,
         device_map=0,
         torch_dtype=torch.float16,
-        max_length=512
+        max_new_tokens=100,
+        return_full_text=False
     )
 
     print("inference result ...")
